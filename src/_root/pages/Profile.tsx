@@ -67,7 +67,7 @@ const Profile = () => {
 
             <p className="small-medium md:base-medium text-center xl:text-left mt-7 max-w-screen-sm">
               Join Community :-
-              {currentUser.bio}
+             <a href={currentUser.bio}>Go to My Community</a> 
             </p>
           </div>
 
