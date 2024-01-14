@@ -164,7 +164,7 @@ const UpdateProfile = () => {
               name="bio"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="shad-form_label">Bio</FormLabel>
+                  <FormLabel className="shad-form_label">Community Links</FormLabel>
                   <FormControl>
                     <Textarea
                       className="shad-textarea custom-scrollbar"
