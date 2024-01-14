@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { PostStats } from "@/components/shared";
 import { useUserContext } from "@/context/AuthContext";
 
+
 type GridPostListProps = {
   posts: Models.Document[];
   showUser?: boolean;
@@ -41,6 +42,7 @@ const GridPostList = ({
           </div>
         </li>
       ))}
+  
     </ul>
   );
 };
